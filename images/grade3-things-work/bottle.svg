@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Empty bottle">
+  <path d="M77 33h46v28l17 23v72c0 12-9 20-20 20H80c-11 0-20-8-20-20V84l17-23z" fill="#a4e1ee" stroke="#277e9e" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M77 61h46M60 114h80" stroke="#277e9e" stroke-width="7"/>
+  <path d="M82 84h15v69H82z" fill="#e9fbff" opacity=".8"/>
+  <path d="M77 33h46" stroke="#26546e" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Bangle">
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#e6ad2c" stroke-width="20"/>
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#8e5eab" stroke-width="6" stroke-dasharray="10 13"/>
+  <path d="M42 56c-13 14-18 30-18 47M158 144c13-14 18-30 18-47" fill="none" stroke="#76b9e7" stroke-width="8" stroke-linecap="round"/>
+</svg>

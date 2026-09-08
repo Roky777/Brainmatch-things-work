@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Spinning top">
+  <path d="M34 70c-12 14-12 46 0 60M166 70c12 14 12 46 0 60" fill="none" stroke="#78b9e6" stroke-width="10" stroke-linecap="round"/>
+  <path d="M100 24v28" stroke="#f1aa2b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M65 63h70l-12 54-23 45-23-45z" fill="#e85548" stroke="#9c3730" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M76 78h48M71 99h58" stroke="#ffd45b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 162v14" stroke="#9c3730" stroke-width="7" stroke-linecap="round"/>
+</svg>

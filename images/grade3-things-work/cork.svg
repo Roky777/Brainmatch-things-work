@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Cork">
+  <g transform="rotate(-22 100 100)">
+    <rect x="45" y="60" width="110" height="80" rx="34" fill="#d99a59" stroke="#9b6130" stroke-width="7"/>
+    <ellipse cx="45" cy="100" rx="13" ry="34" fill="#edbd79" stroke="#9b6130" stroke-width="7"/>
+    <path d="M72 82l10 5m14-8 9 5m18 0 10 5M73 111l9 5m18-1 10 5m19-5 9 5" stroke="#a96c37" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
