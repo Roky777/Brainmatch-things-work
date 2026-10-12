@@ -8,7 +8,8 @@
     "assetBase": "./assets/cards/",
     "menuGreeting": "Ready to see how things work?",
     "matchPrompt": "Find the object and its behaviour!",
-    "resultMessage": "You found every behaviour match."
+    "resultMessage": "You found every behaviour match.",
+    "artVersion": "card-art-2"
   },
   "play": {
     "fixedPairs": true,
@@ -165,7 +166,7 @@
     },
     "picture_ball": {
       "name": "Ball picture",
-      "asset": "ball.webp",
+      "asset": "ball-v2.webp",
       "representation": "picture",
       "subject": "ball"
     },
