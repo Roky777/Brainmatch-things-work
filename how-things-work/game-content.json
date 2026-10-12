@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "variant": {
+    "id": "how-things-work",
+    "title": "How Things Work",
+    "subtitle": "A little science adventure",
+    "objective": "Match each object with what it does.",
+    "assetBase": "./assets/cards/",
+    "menuGreeting": "Ready to see how things work?",
+    "matchPrompt": "Find the object and its behaviour!",
+    "resultMessage": "You found every behaviour match."
+  },
+  "play": {
+    "fixedPairs": true,
+    "shufflePairs": true,
+    "difficultyGroups": [
+      {
+        "id": "gentle",
+        "name": "Easy",
+        "description": "4 cards · 2 pairs",
+        "rounds": [
+          "1"
+        ]
+      },
+      {
+        "id": "growing",
+        "name": "Medium",
+        "description": "6 cards · 3 pairs",
+        "rounds": [
+          "2"
+        ]
+      },
+      {
+        "id": "clever",
+        "name": "Hard",
+        "description": "8 cards · 4 pairs",
+        "rounds": [
+          "3"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "picnic": false
+  },
+  "progression": {
+    "xp": {
+      "rewards": {
+        "practice": 14,
+        "challenge": 8
+      },
+      "completionBonus": 2
+    }
+  },
+  "worlds": {
+    "dream": {
+      "id": "dream",
+      "name": "Discovery Meadow",
+      "shortName": "Meadow",
+      "description": "Float, sink, spin and roll",
+      "skin": "meadow",
+      "menuTitleLines": [
+        "How Things",
+        "Work"
+      ],
+      "menuKicker": "A little science adventure",
+      "cloudAsset": "sparky-seat-cloud-v1.webp",
+      "unlockMessage": "More science matches are ready!"
+    },
+    "seasons": {
+      "id": "seasons",
+      "name": "Discovery Parade",
+      "shortName": "Parade",
+      "description": "Float, sink, spin and roll",
+      "skin": "parade",
+      "menuTitleLines": [
+        "Discovery",
+        "Parade"
+      ],
+      "menuKicker": "A little science adventure",
+      "cloudAsset": "season-sparky-cloud-v1.webp",
+      "unlockMessage": "More science matches are ready!"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Discovery Lab",
+      "shortName": "Lab",
+      "description": "Float, sink, spin and roll",
+      "skin": "space-lab",
+      "menuTitleLines": [
+        "Discovery",
+        "Lab"
+      ],
+      "menuKicker": "A little science adventure",
+      "cloudAsset": "neon-sparky-cloud-v1.webp",
+      "unlockMessage": "More science matches are ready!"
+    }
+  },
+  "categories": {
+    "stone": {
+      "name": "Sinks",
+      "detail": "This stone sinks.",
+      "color": "#7cb9df"
+    },
+    "leaf": {
+      "name": "Floats",
+      "detail": "This leaf floats.",
+      "color": "#7cb9df"
+    },
+    "ball": {
+      "name": "Rolls",
+      "detail": "This ball rolls.",
+      "color": "#7cb9df"
+    },
+    "top": {
+      "name": "Spins",
+      "detail": "This top spins.",
+      "color": "#7cb9df"
+    },
+    "cork": {
+      "name": "Floats",
+      "detail": "This cork floats.",
+      "color": "#7cb9df"
+    },
+    "coin": {
+      "name": "Sinks",
+      "detail": "This coin sinks.",
+      "color": "#7cb9df"
+    },
+    "bangle": {
+      "name": "Spins",
+      "detail": "A bangle can spin when balanced on its edge.",
+      "color": "#7cb9df"
+    },
+    "bottle": {
+      "name": "Floats",
+      "detail": "This empty capped bottle floats in water.",
+      "color": "#7cb9df"
+    }
+  },
+  "items": {
+    "picture_stone": {
+      "name": "Stone picture",
+      "asset": "stone.png",
+      "representation": "picture",
+      "subject": "stone"
+    },
+    "behaviour_stone": {
+      "name": "Sinks",
+      "asset": "text-sinks.svg",
+      "representation": "text",
+      "subject": "stone"
+    },
+    "picture_leaf": {
+      "name": "Leaf picture",
+      "asset": "leaf.png",
+      "representation": "picture",
+      "subject": "leaf"
+    },
+    "behaviour_leaf": {
+      "name": "Floats",
+      "asset": "text-floats.svg",
+      "representation": "text",
+      "subject": "leaf"
+    },
+    "picture_ball": {
+      "name": "Ball picture",
+      "asset": "ball.webp",
+      "representation": "picture",
+      "subject": "ball"
+    },
+    "behaviour_ball": {
+      "name": "Rolls",
+      "asset": "text-rolls.svg",
+      "representation": "text",
+      "subject": "ball"
+    },
+    "picture_top": {
+      "name": "Top picture",
+      "asset": "top.png",
+      "representation": "picture",
+      "subject": "top"
+    },
+    "behaviour_top": {
+      "name": "Spins",
+      "asset": "text-spins.svg",
+      "representation": "text",
+      "subject": "top"
+    },
+    "picture_cork": {
+      "name": "Cork picture",
+      "asset": "cork.png",
+      "representation": "picture",
+      "subject": "cork"
+    },
+    "behaviour_cork": {
+      "name": "Floats",
+      "asset": "text-floats.svg",
+      "representation": "text",
+      "subject": "cork"
+    },
+    "picture_coin": {
+      "name": "Coin picture",
+      "asset": "coin.svg",
+      "representation": "picture",
+      "subject": "coin"
+    },
+    "behaviour_coin": {
+      "name": "Sinks",
+      "asset": "text-sinks.svg",
+      "representation": "text",
+      "subject": "coin"
+    },
+    "picture_bangle": {
+      "name": "Bangle picture",
+      "asset": "bangle.png",
+      "representation": "picture",
+      "subject": "bangle"
+    },
+    "behaviour_bangle": {
+      "name": "Spins",
+      "asset": "text-spins.svg",
+      "representation": "text",
+      "subject": "bangle"
+    },
+    "picture_bottle": {
+      "name": "Empty capped bottle picture",
+      "asset": "bottle.png",
+      "representation": "picture",
+      "subject": "bottle"
+    },
+    "behaviour_bottle": {
+      "name": "Floats",
+      "asset": "text-floats.svg",
+      "representation": "text",
+      "subject": "bottle"
+    }
+  },
+  "rounds": [
+    {
+      "id": "1",
+      "title": "First behaviour matches",
+      "pairs": [
+        [
+          "stone",
+          "picture_stone",
+          "behaviour_stone"
+        ],
+        [
+          "leaf",
+          "picture_leaf",
+          "behaviour_leaf"
+        ],
+        [
+          "ball",
+          "picture_ball",
+          "behaviour_ball"
+        ],
+        [
+          "top",
+          "picture_top",
+          "behaviour_top"
+        ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "More everyday objects",
+      "pairs": [
+        [
+          "coin",
+          "picture_coin",
+          "behaviour_coin"
+        ],
+        [
+          "cork",
+          "picture_cork",
+          "behaviour_cork"
+        ],
+        [
+          "ball",
+          "picture_ball",
+          "behaviour_ball"
+        ],
+        [
+          "bangle",
+          "picture_bangle",
+          "behaviour_bangle"
+        ]
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Discovery challenge",
+      "pairs": [
+        [
+          "stone",
+          "picture_stone",
+          "behaviour_stone"
+        ],
+        [
+          "bottle",
+          "picture_bottle",
+          "behaviour_bottle"
+        ],
+        [
+          "ball",
+          "picture_ball",
+          "behaviour_ball"
+        ],
+        [
+          "top",
+          "picture_top",
+          "behaviour_top"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Coin image credit
+
+`assets/cards/coin.svg` reuses Money Match's ₹2 coin card: photograph by Reserve Bank of India / Virtualage from [One, Two and Five Rupee coins](https://commons.wikimedia.org/wiki/File:One,_Two_and_Five_Rupee_coins.png), under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The original transparent strip was cropped to the complete coin and composed into the SVG with a small shadow. Derivative card artwork is distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Underlying coin imagery is identified by Commons as GODL-India. No endorsement is implied. See [full source credits](../money-match/CURRENCY_SOURCES.md).
